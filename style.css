@@ -1,0 +1,445 @@
+.gay {
+    height: 100vh;
+    max-width: 100%;
+    background-color: #20B2AA;
+
+}
+
+.pososi {
+    height: 100vh;
+    max-width: 80%;
+    margin: 0 auto;
+    background-image: url("chlen/pidar.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+#mini_pisun {
+    position: absolute;
+    left: 30%;
+    top:7%;
+
+}
+
+.pisun {
+    animation-name: pisun;
+    -webkit-animation-name: pisun;
+
+    animation-duration: 5s;
+    -webkit-animation-duration: 5s;
+
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+
+    visibility: visible !important;
+}
+
+@keyframes pisun {
+    0% {
+        transform: scale(0);
+        opacity: 0.0;
+    }
+
+    60% {
+        transform: scale(1.1);
+    }
+
+    80% {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes pisun {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0.0;
+    }
+
+    60% {
+        -webkit-transform: scale(1.1);
+    }
+
+    80% {
+        -webkit-transform: scale(0.9);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+#maxi_pisun {
+    position: absolute;
+    left: 30%;
+    top: 70%;
+}
+
+.penis {
+    animation-name: penis;
+    -webkit-animation-name: penis;
+
+    animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+
+    animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+
+    visibility: visible !important;
+}
+
+@keyframes penis {
+    0% {
+        transform: scale(1.8);
+    }
+
+    50% {
+        transform: scale(0.95);
+    }
+
+    80% {
+        transform: scale(1.05);
+    }
+
+    90% {
+        transform: scale(0.98);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes penis {
+    0% {
+        -webkit-transform: scale(1.8);
+    }
+
+    50% {
+        -webkit-transform: scale(0.95);
+    }
+
+    80% {
+        -webkit-transform: scale(1.05);
+    }
+
+    90% {
+        -webkit-transform: scale(0.98);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+
+#dick{
+    position: absolute;
+    right: 35%;
+    top: 30%
+
+}
+.agregat{
+    animation-name: agregat;
+    -webkit-animation-name: agregat;    
+ 
+    animation-duration: 5s; 
+    -webkit-animation-duration: 5s;
+ 
+    animation-timing-function: ease-out;    
+    -webkit-animation-timing-function: ease-out;    
+ 
+    visibility: visible !important;         
+}
+ 
+@keyframes agregat {
+    0% {
+        transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+        opacity: 0.2;
+    }
+    30% {
+        transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);        
+        opacity: 1;
+    }
+    45% {
+        transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }
+    60% {
+        transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);     
+        opacity: 1;
+    }   
+    75% {
+        transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }
+    90% {
+        transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);      
+        opacity: 1;
+    }   
+    100% {
+        transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }       
+}
+ 
+@-webkit-keyframes agregat {
+    0% {
+        -webkit-transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+        opacity: 0.2;
+    }
+    30% {
+        -webkit-transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);        
+        opacity: 1;
+    }
+    45% {
+        -webkit-transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }
+    60% {
+        -webkit-transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);     
+        opacity: 1;
+    }   
+    75% {
+        -webkit-transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }
+    90% {
+        -webkit-transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);      
+        opacity: 1;
+    }   
+    100% {
+        -webkit-transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }               
+}
+
+
+
+
+
+#gorlovoi{
+    position: fixed;
+    left: 60%;
+    top: 74%;
+}
+.sosanie{
+    animation-name: sosanie;
+    -webkit-animation-name: sosanie; 
+ 
+    animation-duration: 1.6s;   
+    -webkit-animation-duration: 1.6s;
+ 
+    animation-timing-function: ease;    
+    -webkit-animation-timing-function: ease;    
+     
+    transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;     
+}
+ 
+@keyframes sosanie {
+    0% {
+        transform: translateY(0%) scaleY(0.6);
+    }
+    60%{
+        transform: translateY(-100%) scaleY(1.1);
+    }
+    70%{
+        transform: translateY(0%) scaleY(0.95) scaleX(1.05);
+    }
+    80%{
+        transform: translateY(0%) scaleY(1.05) scaleX(1);
+    }   
+    90%{
+        transform: translateY(0%) scaleY(0.95) scaleX(1);
+    }               
+    100%{
+        transform: translateY(0%) scaleY(1) scaleX(1);
+    }   
+}
+ 
+@-webkit-keyframes sosanie {
+    0% {
+        -webkit-transform: translateY(0%) scaleY(0.6);
+    }
+    60%{
+        -webkit-transform: translateY(-100%) scaleY(1.1);
+    }
+    70%{
+        -webkit-transform: translateY(0%) scaleY(0.95) scaleX(1.05);
+    }
+    80%{
+        -webkit-transform: translateY(0%) scaleY(1.05) scaleX(1);
+    }   
+    90%{
+        -webkit-transform: translateY(0%) scaleY(0.95) scaleX(1);
+    }               
+    100%{
+        -webkit-transform: translateY(0%) scaleY(1) scaleX(1);
+    }       
+}
+
+#chlenopotreblenie{
+    position: fixed;
+    left: 46% ;
+    top: 59%;
+}
+.otsosat{
+    animation-name: otsosat;
+    -webkit-animation-name: otsosat;  
+ 
+    animation-duration: 2s;   
+    -webkit-animation-duration: 2s;
+ 
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+ 
+@keyframes otsosat {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.7;       
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1; 
+    }   
+    100% {
+        transform: scale(0.9);
+        opacity: 0.7;   
+    }           
+}
+ 
+@-webkit-keyframes otsosat {
+    0% {
+        -webkit-transform: scale(0.95);
+        opacity: 0.7;       
+    }
+    50% {
+        -webkit-transform: scale(1);
+        opacity: 1; 
+    }   
+    100% {
+        -webkit-transform: scale(0.95);
+        opacity: 0.7;   
+    }           
+}
+
+#dolbilovo{
+    position: fixed;
+    left:75% ;
+    top: 18%;
+}
+.sex_s_chlenom{
+    animation-name: sex_s_chlenom;
+    -webkit-animation-name: sex_s_chlenom;
+ 
+    animation-duration: 1.5s;   
+    -webkit-animation-duration: 1.5s;
+ 
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+ 
+@keyframes sex_s_chlenom {
+    0% {
+        transform: translateY(0%);  
+    }
+    50% {
+        transform: translateY(8%);  
+    }   
+    100% {
+        transform: translateY(0%);
+    }           
+}
+ 
+@-webkit-keyframes sex_s_chlenom {
+    0% {
+        -webkit-transform: translateY(0%);  
+    }
+    50% {
+        -webkit-transform: translateY(8%);  
+    }   
+    100% {
+        -webkit-transform: translateY(0%);
+    }           
+}
+
+
+#proniknovenie{
+    position: fixed;
+    left: 17%;
+    top: 6%;
+}
+.ottraxat{
+    animation-name: ottraxat;
+    -webkit-animation-name: ottraxat; 
+ 
+    animation-duration: 5s; 
+    -webkit-animation-duration: 5s;
+ 
+    animation-timing-function: ease-out;    
+    -webkit-animation-timing-function: ease-out;    
+ 
+    transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;         
+}
+ 
+@keyframes ottraxat {
+    0% {
+        transform: scaleY(0.1);
+    }
+    40% {
+        transform: scaleY(1.02);
+    }
+    60% {
+        transform: scaleY(0.98);
+    }
+    80% {
+        transform: scaleY(1.01);
+    }
+    100% {
+        transform: scaleY(0.98);
+    }               
+    80% {
+        transform: scaleY(1.01);
+    }
+    100% {
+        transform: scaleY(1);
+    }                           
+}
+ 
+@-webkit-keyframes ottraxat {
+    0% {
+        -webkit-transform: scaleY(0.1);
+    }
+    40% {
+        -webkit-transform: scaleY(1.02);
+    }
+    60% {
+        -webkit-transform: scaleY(0.98);
+    }
+    80% {
+        -webkit-transform: scaleY(1.01);
+    }
+    100% {
+        -webkit-transform: scaleY(0.98);
+    }               
+    80% {
+        -webkit-transform: scaleY(1.01);
+    }
+    100% {
+        -webkit-transform: scaleY(1);
+    }       
+}
